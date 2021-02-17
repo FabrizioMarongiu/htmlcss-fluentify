@@ -228,12 +228,15 @@ div.propose p{
     padding: 20px 0;
 }
 
+/* footer */
+
 footer{
     height: 100px;
     background-color: #d3d3d3;
 }
 
 footer .style-footer{
+    height: 100px;
     line-height: 100px;
     position: relative
 }
@@ -253,4 +256,16 @@ footer .style-footer h1{
 
 div.footer-select select{
     margin: 0 20px;
+}
+
+footer .help a{
+    background-color:#7cbb01;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    right: 2%;
+    color: white;
+    border-radius: 5px;
 }
