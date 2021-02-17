@@ -17,6 +17,10 @@ h4{
     font-weight: 500;
 }
 
+h1{
+    color: black;
+}
+
 /* utilities */
 
 .container{
@@ -38,6 +42,8 @@ h4{
     width: 50%;
 }
 
+/* buttons */
+
 .btn{
     display: inline-block;
     min-width: 100px;
@@ -48,12 +54,16 @@ h4{
     border: 1px solid white;
     border-radius: 5px;
     color: white;
+    line-height: 1;
 }
-
-/* buttons */
 
 .btn.big-btn{
     padding: 20px;
+}
+
+.btn.greenbtn{
+    background-color: #7cbb01;
+    border: 0;
 }
 
 /* header */
@@ -62,10 +72,6 @@ h4{
     background-color: #0d325a;
 }
 
-.btn.greenbtn{
-    background-color: #7cbb01;
-    border: 0;
-}
  
 header .logo{
     width: 15%;
@@ -100,12 +106,6 @@ header a:hover{
 header .right{
     width: 40%;
 }
-
-.header-top a.btn{
-    line-height: 1;
-}
-
-
 
 /* header bottom */
 
@@ -221,7 +221,6 @@ div.propose{
 
 div.propose h1{
     font-size: 30px;
-    color: black;
     padding: 20px 0;
 }
 
@@ -229,5 +228,29 @@ div.propose p{
     padding: 20px 0;
 }
 
+footer{
+    height: 100px;
+    background-color: #d3d3d3;
+}
 
+footer .style-footer{
+    line-height: 100px;
+    position: relative
+}
 
+footer .style-footer h1{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+.footer-select{
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    right: 0%;
+}
+
+div.footer-select select{
+    margin: 0 20px;
+}
