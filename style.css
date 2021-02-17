@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     color: #8b8b8b;
 }
 
@@ -34,18 +34,41 @@ h4{
     clear: both;
 }
 
+.w50{
+    width: 50%;
+}
+
+.btn{
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+/* buttons */
+
+.btn.big-btn{
+    padding: 20px;
+}
+
 /* header */
-
-
 .header-top{
     line-height: 80px;
     background-color: #0d325a;
-    text-transform: uppercase;
+}
+
+.btn.greenbtn{
+    background-color: #7cbb01;
+    border: 0;
 }
  
 header .logo{
     width: 15%;
-    
 } 
 
 header .logo img{
@@ -54,7 +77,6 @@ header .logo img{
 
 header .center{
     width: 45%;
-
 }
 
 header  li{
@@ -68,6 +90,7 @@ header a{
     text-decoration: none;
     color: white;
     font-size: 10px;
+    text-transform: uppercase;
 }
 
 header a:hover{
@@ -76,8 +99,53 @@ header a:hover{
 
 header .right{
     width: 40%;
+}
 
+.header-top a.btn{
+    line-height: 1;
 }
 
 
 
+/* header bottom */
+
+section.header-btm{
+    height: 480px;
+    background-color: #0d325a;
+    background-image: url("./img/background-header.png");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: 115% 110%;
+}
+
+section.header-btm .container{
+    height: 100%;
+    position: relative;
+}
+
+
+section.header-btm .text{ 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+section.header-btm .text h1{
+    font-size: 36px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* middle bar */
+article .middle-bar{
+    height: 100px;
+    background-color: #d3d3d3;
+    text-align: center;
+}
+
+article .middle-bar h3{
+    font-size: 16px;
+    color: black;
+    padding: 20px;
+}
