@@ -98,7 +98,6 @@ header  li{
     padding-right: 10px;
 }
 
-
 header a{
     text-decoration: none;
     color: white;
@@ -277,6 +276,7 @@ footer .help a{
     right: 2%;
     color: white;
     border-radius: 5px 5px 0 0;
+    z-index: 10;
 }
 
 /* ---------------- Second Page ---------------- */
@@ -347,14 +347,22 @@ div.header2btm div{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    padding-bottom: 100px;
 }
 
 div.header2btm span{
     font-size: 10px;
 }
 
+div.header2btm h3 span{
+    color: #7cbb01;
+    font-size: 20px;
+}
+
+/* Article page 2 */
+
 section.article2{
-    height: 300px;
+    height: 250px;
     background-color: #0d325a;
 }
 
@@ -364,11 +372,13 @@ div.text-article2 h3{
 
 .text-article2{
     text-align: left;
-    padding: 7% 36% 0 0;
+    padding: 4% 36% 0 0;
 }
 
+/* Main page 2 */
+
 main.main-page2{
-    height: 500px;
+    height: 350px;
     padding: 0 40px;
 }
 
@@ -397,3 +407,80 @@ main.main-page2 hr{
     margin-top: 20px;
 }
 
+.blue{
+    color: #9cc7ef;
+}
+
+.orange{
+    color: #f5a60e;
+}
+
+.green{
+    color: #82b20c;
+}
+
+/* footer */
+
+footer.footer2{
+    height: 500px;
+}
+
+section.footer2top{
+    height: 150px;
+    background-color: #0c3259;
+    position: relative;
+}
+
+section.footer2top div.container2{
+    position:absolute;
+    top: 30%;
+    left: 18%;
+}
+
+section.footer2btm div.w50.float h2,
+section.footer2top div.container2 h2{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+a.faq{
+    text-decoration: none;
+    color: #b18d51;
+}
+
+section.footer2top a:not(.faq){
+    color: #7cbb01;
+}
+
+section.footer2btm{
+    height: 350px;
+    background-color: #17416b;
+}
+
+section.footer2btm div.w50,
+section.footer2btm div.w50 a{
+    padding-top: 50px;
+    color:#8b8b8b;
+    text-decoration: none;
+}
+
+section.footer2btm li{
+    list-style: none;
+    padding-top: 20px;
+    margin-left: 0;
+}
+
+section.footer2btm h3{
+    color:white;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+section.footer2btm div.w50.float:nth-child(2){
+    text-align: right;
+}
+
+section.footer2btm div.w50.float span{
+    display: inline-block;
+    margin-top: 50px;
+}
