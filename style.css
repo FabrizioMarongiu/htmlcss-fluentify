@@ -194,6 +194,7 @@ hr{
     display:inline-block;
     width: 50px;
     margin-bottom: 20px;
+    color: #d3d3d3;
 }
 
 hr.big-rule{
